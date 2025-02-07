@@ -153,6 +153,7 @@ signed main(){
         }else if(dp[i][j]==dp[i-1][j])--i;
         else --j;
     }
+    gyaku(ans);
     o(ans);
 }
 
